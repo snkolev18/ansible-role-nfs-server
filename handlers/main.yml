@@ -1,0 +1,8 @@
+- name: restart nfs
+  service:
+    name: "{{ nfs_server_service_name }}"
+    state: restarted
+- name: reload nfs
+  service:
+    name: "{{ nfs_server_service_name }}"
+    state: reloaded

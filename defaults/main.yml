@@ -1,0 +1,19 @@
+nfs_server_bind_address: 0.0.0.0
+
+nfs_server_exports_file_path: "/etc/exports"
+nfs_server_nfs_conf_file_path: "/etc/nfs.conf"
+
+nfs_server_service_name: nfs-server
+
+nfs_server_exports: []
+# Example:
+#  - path: /path/to/export/dir
+#    clients:
+#      - 192.168.0.0/24
+#      - 10.0.0.1
+#      - client-hostname
+#    options:
+#      - rw
+#      - root_squash
+#      - sync
+#      - fsid=root
